@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+<title>java</title>
+
+</head>
+
+<body>
+<h1>Demo: else if condition</h1>
+<!--<script>
+var a=3;
+if(a>10){
+  document.write("value of "+a+" is greater than 10");
+}
+else {
+  document.write("value of "+a+" not greater than 10");
+}
+</script>
+
+<script>
+var age=15;
+if(age>18){
+  document.write("<b> Qualifies for driving </b>");
+else{
+  document.write("<b> Does not qualify for driving </b>");
+}
+</script>
+
+<script>
+var mark=25;
+if(mark>75){
+  document.write("your marks is "+mark+" Garde A");
+  }
+  else if(mark>50){
+    document.write("your marks is "+mark+" Garde B");
+      }
+      else if (mark>40) {
+        document.write("your marks is "+mark+" Garde C");
+          }
+else  {
+  document.write("your marks is "+mark+" Garde Fail");
+}
+</script>
+
+<script>
+var salary=30000;
+var mysalary=30000;
+if(salary==mysalary){
+  window.alert("your salary and my salary are same");
+  }
+  else if(salary>mysalary){
+    window.alert("your salary is greater than my salary ");
+      }
+      else {
+      window.alert("my salary is greater than your salary ");
+          }
+</script>
+
+<p id="demo"></p>
+<script>
+var day;
+switch(new Date().getDay())
+{
+  case 0:
+  day ="Sunday";
+  break;
+  case 1:
+  day ="Monday";
+  break;
+  case 2:
+  day ="Thuesday";
+  break;
+  case 3:
+  day ="Wednesday";
+  break;
+  case 4:
+  day ="Thursday";
+  break;
+  case 5:
+  day ="Friday";
+  break;
+  case 6:
+  day ="Saturday";
+  break;
+  default:
+  day ="Unknown Day";
+}
+document.getElementById("demo").innerHTML="today is "+ day;
+</script>
+-->
+<p id="demo"></p>
+<script>
+var month;
+switch(new Date().getMonth() )
+{
+  case 0:
+  case 2:
+  case 4:
+  case 6:
+  case 7:
+  case 9:
+  case 11:
+  month="this month has 31 days";
+  break;
+  case 1:
+month="this month has 28 days";
+  break;
+  case 3:
+  case 5:
+  case 8:
+  case 10:
+  month="this month has 30 days";
+  break;
+    default:
+  month ="Unknown Month";
+}
+document.getElementById("demo").innerHTML=month;
+</script>
+</body>
+</html>
